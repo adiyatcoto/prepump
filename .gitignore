@@ -1,0 +1,86 @@
+# Binaries
+prepump
+prepump-*
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+
+# Linux
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Log files
+*.log
+logs/
+
+# Configuration files with secrets
+config.local.yaml
+config.*.yaml
+!.config.yaml.example
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build output
+build/
+dist/
+bin/
+
+# Docker
+docker-compose.override.yml
+
+# Coverage
+coverage.txt
+coverage.html
+cover.out
+
+# Profiling
+cpu.prof
+mem.prof
+block.prof
+mutex.prof
+
+# Debug files
+debug/
+debug.txt

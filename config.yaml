@@ -1,0 +1,63 @@
+# PrePump Scanner Configuration
+
+# Scanning parameters
+scan:
+  top_coins: 100
+  min_volume_usd: 200000
+  workers: 10
+  interval_seconds: 60
+
+# Live streams
+streams:
+  pyth_sse: true
+  deepcoin_poll: true
+  poll_interval_ms: 100
+
+# Signal weights (sum should be ~100)
+weights:
+  volume: 15
+  oi: 12
+  funding: 15
+  cvd: 12
+  rsi: 8
+  bb: 8
+  momentum: 5
+  hmm: 15
+  cb_premium: 10
+
+# Thresholds
+thresholds:
+  hot: 70
+  warm: 50
+
+# HMM Parameters
+hmm:
+  iterations: 80
+  states: 3
+  
+# Pyth feeds to subscribe
+pyth:
+  feeds:
+    - BTC
+    - ETH
+    - SOL
+    - BNB
+    - XRP
+    - DOGE
+    - ADA
+    - AVAX
+    - MATIC
+    - LINK
+    - DOT
+    - UNI
+
+# Cache settings
+cache:
+  candle_ttl_seconds: 30
+  max_entries: 200
+
+# API settings
+api:
+  deepcoin_timeout_seconds: 15
+  pyth_timeout_seconds: 10
+  rate_limit_per_second: 20

@@ -1,0 +1,64 @@
+# PrePump Scanner - Example Configuration
+# Copy this file to config.yaml or config.local.yaml and customize
+
+# ─── Scanning Parameters ──────────────────────────────────────────
+scan:
+  top_coins: 100              # Number of top coins to scan by volume
+  min_volume_usd: 200000      # Minimum 24h trading volume (USD)
+  workers: 10                 # Concurrent worker goroutines
+  interval_seconds: 60        # Full scan interval
+
+# ─── Live Data Streams ────────────────────────────────────────────
+streams:
+  pyth_sse: true              # Enable Pyth Network SSE stream
+  deepcoin_poll: true         # Enable Deepcoin polling
+  poll_interval_ms: 100       # Polling interval in milliseconds
+
+# ─── Signal Weights (should sum to ~100) ──────────────────────────
+weights:
+  volume: 15      # Volume spike detection
+  oi: 12          # Open Interest changes
+  funding: 15     # Funding rate anomalies
+  cvd: 12         # Cumulative Volume Delta
+  rsi: 8          # RSI divergence signals
+  bb: 8           # Bollinger Bands compression
+  momentum: 5     # Price momentum
+  hmm: 15         # HMM regime detection
+  cb_premium: 10  # Coinbase premium analysis
+
+# ─── Alert Thresholds ─────────────────────────────────────────────
+thresholds:
+  hot: 70         # Score >= 70 triggers HOT alert
+  warm: 50        # Score >= 50 triggers WARM alert
+
+# ─── HMM Configuration ────────────────────────────────────────────
+hmm:
+  iterations: 80  # Training iterations
+  states: 3       # Number of hidden states (BULL/BEAR/SIDEWAYS)
+
+# ─── Pyth Price Feeds ─────────────────────────────────────────────
+pyth:
+  feeds:
+    - BTC
+    - ETH
+    - SOL
+    - BNB
+    - XRP
+    - DOGE
+    - ADA
+    - AVAX
+    - MATIC
+    - LINK
+    - DOT
+    - UNI
+
+# ─── Cache Settings ───────────────────────────────────────────────
+cache:
+  candle_ttl_seconds: 30      # Candle data time-to-live
+  max_entries: 200            # Maximum cache entries
+
+# ─── API Settings ─────────────────────────────────────────────────
+api:
+  deepcoin_timeout_seconds: 15
+  pyth_timeout_seconds: 10
+  rate_limit_per_second: 20
