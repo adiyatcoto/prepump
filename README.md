@@ -140,7 +140,7 @@ make --version
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/prepump.git
+git clone https://github.com/adiyatcoto/prepump.git
 cd prepump
 
 # 2. Download dependencies
@@ -160,7 +160,7 @@ make build
 
 ```bash
 # Install directly from source
-go install github.com/YOUR_USERNAME/prepump/cmd/prepump@latest
+go install github.com/adiyatcoto/prepump/cmd/prepump@latest
 
 # Run from GOPATH/bin
 $GOPATH/bin/prepump
@@ -178,7 +178,7 @@ docker run -it --rm prepump:latest
 
 ### Method 4: Pre-built Binary
 
-Check the [Releases](https://github.com/YOUR_USERNAME/prepump/releases) page for pre-compiled binaries for your platform.
+Check the [Releases](https://github.com/adiyatcoto/prepump/releases) page for pre-compiled binaries for your platform.
 
 ---
 
@@ -461,7 +461,7 @@ prepump/
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/prepump.git
+git clone https://github.com/adiyatcoto/prepump.git
 cd prepump
 
 # Download dependencies
@@ -664,7 +664,7 @@ Check for logs in:
 ### Getting Help
 
 1. Check this README
-2. Review the [Issues](https://github.com/YOUR_USERNAME/prepump/issues) page
+2. Review the [Issues](https://github.com/adiyatcoto/prepump/issues) page
 3. Open a new issue with:
    - Your OS and Go version
    - Error messages
@@ -754,8 +754,8 @@ The authors and contributors are not responsible for any financial losses or dam
 
 ## 📬 Contact
 
-- **Repository**: [github.com/YOUR_USERNAME/prepump](https://github.com/YOUR_USERNAME/prepump)
-- **Issues**: [github.com/YOUR_USERNAME/prepump/issues](https://github.com/YOUR_USERNAME/prepump/issues)
+- **Repository**: [github.com/adiyatcoto/prepump](https://github.com/adiyatcoto/prepump)
+- **Issues**: [github.com/adiyatcoto/prepump/issues](https://github.com/adiyatcoto/prepump/issues)
 
 ---
 

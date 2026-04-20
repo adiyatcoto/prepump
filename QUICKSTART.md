@@ -24,7 +24,7 @@ If Go is not installed, download it from [golang.org/dl](https://golang.org/dl/)
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/prepump.git
+git clone https://github.com/adiyatcoto/prepump.git
 cd prepump
 
 # Build
@@ -38,7 +38,7 @@ go build -o prepump ./cmd/prepump
 
 ```bash
 # Install directly
-go install github.com/YOUR_USERNAME/prepump/cmd/prepump@latest
+go install github.com/adiyatcoto/prepump/cmd/prepump@latest
 
 # Run
 $GOPATH/bin/prepump
@@ -172,8 +172,8 @@ go build -o prepump ./cmd/prepump
 ## Need Help?
 
 - 📖 [Full Documentation](README.md)
-- 🐛 [Report a Bug](https://github.com/YOUR_USERNAME/prepump/issues)
-- 💡 [Request a Feature](https://github.com/YOUR_USERNAME/prepump/issues)
+- 🐛 [Report a Bug](https://github.com/adiyatcoto/prepump/issues)
+- 💡 [Request a Feature](https://github.com/adiyatcoto/prepump/issues)
 - 📧 [Contact Maintainers](mailto:your-email@domain.com)
 
 ---

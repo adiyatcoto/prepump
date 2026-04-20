@@ -11,7 +11,7 @@ This project and everyone participating in it is governed by our Code of Conduct
 > **Note:** Please don't file an issue to ask a question. You'll get faster results by using the resources below.
 
 - Check the [README.md](../README.md) - your question might already be answered
-- Search existing [issues](https://github.com/YOUR_USERNAME/prepump/issues) - someone might have asked the same thing
+- Search existing [issues](https://github.com/adiyatcoto/prepump/issues) - someone might have asked the same thing
 - Check the [FAQ section](../README.md#troubleshooting) in the README
 
 ## What We Are Looking For
@@ -59,7 +59,7 @@ Add any other context about the problem here.
 
 ### Suggesting Features
 
-Feature suggestions are always tracked as [GitHub issues](https://github.com/YOUR_USERNAME/prepump/issues).
+Feature suggestions are always tracked as [GitHub issues](https://github.com/adiyatcoto/prepump/issues).
 
 **Template:**
 
@@ -89,7 +89,7 @@ Unsure where to begin contributing? You can start by looking through these `good
 1. **Fork** the repository on GitHub
 2. **Clone** your fork locally:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/prepump.git
+   git clone https://github.com/adiyatcoto/prepump.git
    cd prepump
    ```
 
@@ -246,7 +246,7 @@ Closes #(issue number)
 
 ```bash
 # Clone your fork
-git clone https://github.com/YOUR_USERNAME/prepump.git
+git clone https://github.com/adiyatcoto/prepump.git
 cd prepump
 
 # Download dependencies
