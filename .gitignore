@@ -1,6 +1,6 @@
 # Binaries
-prepump
-prepump-*
+/prepump
+/prepump-*
 *.exe
 *.exe~
 *.dll
