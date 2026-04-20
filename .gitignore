@@ -84,3 +84,7 @@ mutex.prof
 # Debug files
 debug/
 debug.txt
+
+# Debug files
+*_debug.txt
+debug.txt
